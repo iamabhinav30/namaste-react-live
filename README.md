@@ -1,6 +1,73 @@
-## UI Layer --> JSX --babel-> JS Objects (Virtual DOM) --> Helpful for Reconsilation (between render check diff between old VDOM and new VDOM and diff will keep in sync with actual DOM)
-## Data Layer rendered UI --> we use state and props to handle the data
+<!-- UI Layer -> JSX --babel-> JS Objects (Virtual DOM) -> Helpful for Reconsilation (between render check diff between old VDOM and new VDOM and diff will keep in sync with actual DOM)
 
+Data Layer rendered UI -> we use state and props to handle the data -->
+
+<!-- 
+Machine coding interview
+- Todo App
+- fetch data from API
+- quiz app
+- nested filters
+- carousels
+- hooks
+- forms
+- infinite scroll
+- searching 
+- ecommerce website
+- debouncing
+- tic tak toe
+- facebook- trello
+- excel
+
+Challenges
+- managing ur time
+- Pactice 
+- proper planning in interview
+
+Building a youtube
+ Ask below questions
+ - Requirement clarification
+        - discuss what are the features which need to be build
+        (comments)
+ - what tech stack (i will use tailwind, for datamanagemenet redux or useContext)
+        - discuss on two layers(ui & data)
+        with proper justificaiton need to clarify with the interviewer
+        - for forms what i gonna use
+        - for routing what i will use 9react-router- dom
+        - which bundler
+        - testing library, will use jest
+
+        only 5 mins to discuss the above things
+
+ - next 5 min PLANNING for UI design (STRUCTURE AND PLANNING)
+        - my app will have a header
+        - it will have hamburger(which will have home, subscribe, recent, library)
+        - youtube logo, search bar, user icon
+        - will have vidoe, will have some buttons
+        - below that we have videos
+        - if we click on video, it will open a new video in new page
+                /watch
+        - video will have comments
+
+        MORE PLANNING, WILL WRITE A BETTER CODE
+
+
+        BELOW COMPONENTS WILL CREATE 
+        - header
+        - slide bar
+        - body
+            - button list
+            - video buton
+                - video card
+        - watch video
+        - comments
+
+
+npx create-react-app : executing package create-react-app
+
+
+
+ -->
 
 <!--
 TESTING USING JEST & CONFIGURATION
